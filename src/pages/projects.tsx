@@ -1,3 +1,9 @@
+import YourDreamDog from "../components/your-dream-dog/your-dream-dog";
+
 export default function Projects() {
-    return <h1>Projects</h1>
+  return (
+
+      <YourDreamDog />
+
+  );
 }
