@@ -1,4 +1,5 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
+import {Link} from 'react-router-dom';
 
 interface info {
   text: string;
@@ -8,12 +9,12 @@ interface info {
 function NavItem(props: info) {
   return (
     <NavigationMenu.Item className="flex justify-center border-solid border-black border-2 w-1/3">
-        <NavigationMenu.Link
+        <Link
           className='p-2 border-solid border-green-300 border-2 text-xl'
-          href={props.link}
+          to={props.link}
         >
           {props.text}
-        </NavigationMenu.Link>
+        </Link>
       </NavigationMenu.Item>
   );
 }
