@@ -6,6 +6,7 @@ import Contact from './pages/contact';
 import Projects from "./pages/projects";
 import {Route, Routes} from 'react-router-dom';
 import YourDreamDog from "./components/your-dream-dog/your-dream-dog";
+import BusinessWebsite from "./components/business-website/business-website";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/projects/your-dream-dog' element={<YourDreamDog />} />
-          <Route path='/projects/business-website' element={<Projects />} />
+          <Route path='/projects/business-website' element={<BusinessWebsite />} />
         </Routes>
       </main>
       <Footer />
