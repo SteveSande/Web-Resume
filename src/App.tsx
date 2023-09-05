@@ -12,7 +12,7 @@ function App() {
   return (
     <div id="page" className="flex flex-col min-h-screen">
       <Header />
-      <main className="bg-green-100 p-[50px] text-center">
+      <main className="bg-green-100 text-center">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/experience' element={<Experience />} />
